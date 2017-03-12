@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{EB6AE049-72B9-0481-4E9F-4E1471930846}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_0;UNITY_5_4;UNITY_5;UNITY_PURCHASING;UNITY_ANALYTICS;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\Android\AndroidNativeAlert.cs" />
+     <Compile Include="Assets\Plugins\UnityPurchasing\script\ComboBox.cs" />
+     <Compile Include="Assets\Plugins\UnityPurchasing\script\IAPDemo.cs" />
+     <Compile Include="Assets\Plugins\UnityPurchasing\script\UnibillDemo.cs" />
+     <None Include="Assets\Plugins\Android\VKLIB\res\layout\vk_captcha_dialog.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-v21\styles_base_text.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\drawable\abc_ratingbar_full_material.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\select_dialog_singlechoice_material.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\drawable\abc_btn_check_material.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-fi\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\anim\abc_slide_out_bottom.xml" />
+     <None Include="Assets\Plugins\Android\VKLIB\res\drawable\vk_gray_transparent_shape.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-sk\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\notification_template_part_time.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\select_dialog_item_material.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-es\strings.xml" />
+     <None Include="Assets\Plugins\Android\VKLIB\res\values\dimen.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-pl\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-uk\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\drawable\abc_list_selector_background_transition_holo_dark.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\notification_template_lines.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\abc_activity_chooser_view.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\abc_activity_chooser_view_list_item.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\drawable\abc_tab_indicator_material.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-sl\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-ur-rPK\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\abc_action_bar_title_item.xml" />
+     <None Include="Assets\Plugins\Android\VKLIB\bin\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-zh-rTW\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-large\themes_base.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-w480dp\bools.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\color\abc_primary_text_disable_only_material_dark.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\anim\abc_fade_in.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\abc_expanded_menu_layout.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-it\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-w720dp\bools.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-xlarge\bools.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-ca\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\color-v11\abc_background_cache_hint_selector_material_light.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-si-rLK\strings.xml" />
+     <None Include="Assets\Plugins\Android\VKLIB\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-hu\strings.xml" />
+     <None Include="Assets\Plugins\Android\VKLIB\res\values-w720dp\dimen.xml" />
+     <None Include="Assets\Plugins\Android\VKLIB\res\values-w820dp\dimens.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values\colors.xml" />
+     <None Include="Assets\Plugins\Android\VKLIB\res\values-ru\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-ko\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-zh-rCN\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-zh-rHK\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\color\switch_thumb_material_dark.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-et-rEE\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\notification_template_part_chronometer.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\abc_action_bar_up_container.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-ne-rNP\strings.xml" />
+     <None Include="Assets\Plugins\Android\VKLIB\res\values\color.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-lt\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-de\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-uz-rUZ\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\notification_template_big_media_narrow.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-fr\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-en-rGB\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-cs\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-v21\styles_base.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\anim\abc_shrink_fade_out_from_bottom.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-land\dimens_material.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-da\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-pt\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-ja\strings.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-ml-rIN\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\support_simple_spinner_dropdown_item.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-sw600dp\config.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\drawable\abc_dialog_material_background_light.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\anim\abc_popup_exit.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\color\abc_primary_text_material_dark.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-sv\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-hy-rAM\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-fr-rCA\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-bn-rBD\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\drawable\abc_switch_thumb_material.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-sw\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-am\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values\styles_base_text.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-is-rIS\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-nb\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\color\abc_background_cache_hint_selector_material_light.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-mk-rMK\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\drawable\abc_dialog_material_background_dark.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-iw\strings.xml" />
+     <None Include="Assets\Plugins\Android\VKLIB\res\layout\vk_share_dialog.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-land\dimens.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-kn-rIN\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\abc_list_menu_item_checkbox.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-ka-rGE\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\abc_alert_dialog_material.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\color\abc_primary_text_material_light.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\notification_media_action.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\abc_simple_dropdown_hint.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-ro\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values\colors_material.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\abc_action_mode_bar.xml" />
+     <None Include="Assets\Plugins\Android\MainLibProj\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\VKLIB\res\layout-v17\vk_share_dialog.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-fa\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\color-v11\abc_background_cache_hint_selector_material_dark.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-large\bools.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-en-rIN\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-lo-rLA\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\abc_action_menu_layout.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values\styles_base.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\select_dialog_multichoice_material.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-zu\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-tr\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\abc_screen_simple.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-te-rIN\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\abc_search_view.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-mr-rIN\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\anim\abc_slide_out_top.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-es-rUS\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\drawable\abc_list_selector_holo_light.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-ky-rKG\strings.xml" />
+     <None Include="Assets\Plugins\Android\VKLIB\res\values\dimens.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-sr\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-v17\styles_rtl.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\drawable\abc_item_background_holo_light.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\drawable\abc_textfield_search_material.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values\themes.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\color\switch_thumb_material_light.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\abc_list_menu_item_radio.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\notification_template_media.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values\styles_rtl.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-gl-rES\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\color\abc_secondary_text_material_light.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-ar\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-el\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-af\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-th\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\drawable\abc_edit_text_material.xml" />
+     <None Include="Assets\Plugins\Android\VKLIB\res\drawable\vk_share_send_button_background.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\README.txt" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-hr\strings.xml" />
+     <None Include="Assets\Plugins\Android\VKLIB\res\layout\vk_open_auth_dialog.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-ru\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\abc_list_menu_item_layout.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-w360dp\dimens.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\abc_action_mode_close_item_material.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\color\abc_secondary_text_material_dark.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\color\abc_search_url_text.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-large\dimens.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-ms-rMY\strings.xml" />
+     <None Include="Assets\Plugins\Android\VKLIB\res\values\styles.xml" />
+     <None Include="Assets\Plugins\Android\VKLIB\res\values-w600dp\dimen.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\drawable\abc_cab_background_internal_bg.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-mn-rMN\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\abc_popup_menu_item_layout.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-hi\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-my-rMM\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values\dimens.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-v14\themes_base.xml" />
+     <None Include="Assets\SimpleFX\Materials\UnlitVertexColour_Alpha.shader" />
+     <None Include="Assets\Plugins\Android\VKLIB\res\menu\web_view.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-h720dp\dimens.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-nl\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values\styles.xml" />
+     <None Include="Assets\Plugins\Android\VKLIB\res\values-v11\styles.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\abc_action_bar_view_list_nav_layout.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\anim\abc_popup_enter.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\abc_list_menu_item_icon.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-v14\styles_base_text.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-port\bools.xml" />
+     <None Include="Assets\Plugins\Android\VKLIB\res\drawable\vk_clear_shape.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-ta-rIN\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-w480dp\config.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\abc_screen_simple_overlay_action_mode.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-km-rKH\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-v18\dimens.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\drawable\abc_btn_default_mtrl_shape.xml" />
+     <None Include="Assets\Plugins\Android\VKLIB\bin\R.txt" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\drawable\abc_btn_borderless_material.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\bin\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-v11\themes_base.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\abc_dialog_title_material.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-eu-rES\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\anim\abc_fade_out.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\color\abc_primary_text_disable_only_material_light.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-hdpi\styles_base.xml" />
+     <None Include="Assets\Plugins\Android\VKLIB\res\layout\activity_web_view.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-w600dp\dimens.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-v11\styles_base_text.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\drawable\abc_list_selector_holo_dark.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-land\bools.xml" />
+     <None Include="Assets\Plugins\Android\VKLIB\res\values-v21\styles.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\notification_template_big_media.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\abc_action_menu_item_layout.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-v11\styles_base.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\abc_select_dialog_material.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-land\config.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\notification_media_cancel_action.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-v14\styles.xml" />
+     <None Include="Assets\Plugins\Android\VKLIB\lint.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-lv\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\drawable\abc_item_background_holo_dark.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-v21\themes_base.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-xlarge\dimens.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-xlarge-land\dimens.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values\config.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-vi\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\bin\R.txt" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\drawable\abc_spinner_textfield_background_material.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\anim\abc_slide_in_bottom.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\abc_search_dropdown_item_icons_2line.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values\themes_base.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values\dimens_material.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-large\config.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\anim\abc_grow_fade_in_from_bottom.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\color\abc_background_cache_hint_selector_material_dark.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-pt-rPT\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-tl\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\anim\abc_slide_in_top.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-bg\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-sw600dp\dimens.xml" />
+     <None Include="Assets\Plugins\Android\VKLIB\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\abc_screen_toolbar.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-in\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\drawable\abc_btn_radio_material.xml" />
+     <None Include="Assets\Plugins\Android\VKLIB\res\menu\main.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-kk-rKZ\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values\ids.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values\attrs.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-w500dp\dimens.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\layout\abc_screen_content_include.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values\bools.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\values-v12\styles_base.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\drawable\abc_cab_background_top_material.xml" />
+     <None Include="Assets\Plugins\Android\appcompat_v7\res\drawable\abc_list_selector_background_transition_holo_light.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="NativeAlert">
+ <HintPath>D:/UnityGames/ColorTubeIos/Assets/Plugins/NativeAlert.dll</HintPath>
+ </Reference>
+ <Reference Include="Common">
+ <HintPath>D:/UnityGames/ColorTubeIos/Assets/Plugins/UnityPurchasing/Bin/Common.dll</HintPath>
+ </Reference>
+ <Reference Include="Editor">
+ <HintPath>D:/UnityGames/ColorTubeIos/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Security">
+ <HintPath>D:/UnityGames/ColorTubeIos/Assets/Plugins/UnityPurchasing/Bin/Security.dll</HintPath>
+ </Reference>
+ <Reference Include="Stores">
+ <HintPath>D:/UnityGames/ColorTubeIos/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+ </Reference>
+ <Reference Include="Apple">
+ <HintPath>D:/UnityGames/ColorTubeIos/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+ </Reference>
+ <Reference Include="winrt">
+ <HintPath>D:/UnityGames/ColorTubeIos/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
